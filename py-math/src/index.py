@@ -23,16 +23,18 @@ x = np.array([
   1,
   2,
 ]);
-y = np.dot(m, x);
+
+# y = np.dot(m, x);
+y = (1, 2)
 
 
 ax = plt.axes()
 plt.grid();
-plt.xlim(0, 10);
-plt.ylim(0, 10);
-plt.title('Testing...');
+# plt.xlim(0, 10);
+# plt.ylim(0, 10);
+# plt.title('Testing...');
 print(y);
-plt.plot(y[0]);
+plt.plot(y);
 
 # plt.savefig('how_to_plot.png', bbox_inches="tight");
 plt.show();
